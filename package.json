@@ -1,6 +1,6 @@
 {
   "name": "cf-find",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Command Line Utility for finding a CloudFront Distribution ID",
   "main": "index.js",
   "bin": {
