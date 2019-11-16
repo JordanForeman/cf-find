@@ -1,9 +1,6 @@
 {
-    "extends": "eslint-config-airbnb-base",
+    "extends": "@jordanforeman/eslint-config",
     "rules": {
         "no-console": [0]
-    },
-    "env": {
-        "mocha": true
     }
 }
