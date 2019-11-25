@@ -2,6 +2,7 @@
 
 A Command Line Utility for finding a CloudFront Distribution ID
 
+<span class="badge-npmversion"><a href="https://www.npmjs.com/package/cf-find" title="View this project on NPM"><img src="https://img.shields.io/npm/v/cf-find.svg" alt="NPM version" /></a></span>
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 ![](https://github.com/JordanForeman/cf-find/workflows/Semantic%20Release/badge.svg)
 ![](https://github.com/JordanForeman/cf-find/workflows/PR%20Verify/badge.svg)
