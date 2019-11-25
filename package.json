@@ -24,7 +24,7 @@
     "yargs": "^14.2.0"
   },
   "devDependencies": {
-    "@jordanforeman/commitizen-config": "1.2.2",
+    "@jordanforeman/commitizen-config": "1.2.3",
     "@jordanforeman/commitlint-config": "0.2.1",
     "@jordanforeman/eslint-config": "0.2.1",
     "@jordanforeman/release-config": "0.2.1",
