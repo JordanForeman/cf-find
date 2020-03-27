@@ -26,7 +26,7 @@
   "devDependencies": {
     "@jordanforeman/commitizen-config": "1.2.3",
     "@jordanforeman/commitlint-config": "0.2.2",
-    "@jordanforeman/eslint-config": "0.2.1",
+    "@jordanforeman/eslint-config": "0.2.6",
     "@jordanforeman/release-config": "0.2.2",
     "@jordanforeman/renovate-config": "0.2.3",
     "chai": "4.2.0",
