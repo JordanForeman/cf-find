@@ -1,9 +1,9 @@
 const yargs = require('yargs');
 
 function shouldLog() {
-  return !yargs.argv.silent;
+    return !yargs.argv.silent;
 }
 
 module.exports = {
-  shouldLog,
+    shouldLog
 };

@@ -7,28 +7,28 @@ const { log } = require('../../src/log');
 const chance = new Chance();
 
 describe('Logging interceptor', () => {
-  afterEach(sinon.restore);
+    afterEach(sinon.restore);
 
-  it('should suppress logs if --silent is set', () => {
-    sinon.stub(yargs, 'argv').value({
-      silent: true,
+    it('should suppress logs if --silent is set', () => {
+        sinon.stub(yargs, 'argv').value({
+            silent: true
+        });
+        sinon.stub(console, 'log');
+
+        log(chance.string());
+
+        expect(console.log.callCount, 'should call console.log [0] time(s)').to.equal(0);
     });
-    sinon.stub(console, 'log');
 
-    log(chance.string());
+    it('should not suppress logs if --silent is not set', () => {
+        sinon.stub(yargs, 'argv').value({});
+        sinon.stub(console, 'log');
 
-    expect(console.log.callCount, 'should call console.log [0] time(s)').to.equal(0);
-  });
+        const message = chance.string();
 
-  it('should not suppress logs if --silent is not set', () => {
-    sinon.stub(yargs, 'argv').value({});
-    sinon.stub(console, 'log');
+        log(message);
 
-    const message = chance.string();
-
-    log(message);
-
-    expect(console.log.callCount, 'should call console.log [1] time(s)').to.equal(1);
-    expect(console.log.args[0]).to.deep.equal([message]);
-  });
+        expect(console.log.callCount, 'should call console.log [1] time(s)').to.equal(1);
+        expect(console.log.args[0]).to.deep.equal([message]);
+    });
 });
