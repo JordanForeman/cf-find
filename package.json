@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.769.0",
-    "yargs": "^15.0.0"
+    "yargs": "^16.1.0"
   },
   "devDependencies": {
     "@jordanforeman/commitizen-config": "1.2.3",
