@@ -20,7 +20,7 @@
   "author": "Jordan Foreman <me@jordanforeman.com>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.769.0",
+    "aws-sdk": "^2.1053.0",
     "yargs": "^15.0.0"
   },
   "devDependencies": {
