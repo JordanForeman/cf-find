@@ -6,7 +6,7 @@ A Command Line Utility for finding a CloudFront Distribution ID
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 ![](https://github.com/JordanForeman/cf-find/workflows/Semantic%20Release/badge.svg)
 ![](https://github.com/JordanForeman/cf-find/workflows/PR%20Verify/badge.svg)
-[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+[![Dependabot enabled](https://img.shields.io/badge/🤖%20dependabot-enabled-brightgreen.svg)](https://docs.github.com/en/code-security/dependabot/working-with-dependabot)
 
 ## Installation
 
