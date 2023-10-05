@@ -11,4 +11,5 @@ _replace this with a description of your changes_
 
 Please confirm the following, or this PR will be closed:
 
-- [ ] By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/JordanForeman/.github/blob/c5cc584533b5dc0eac961e1c74a021fa443a39a2/code-of-conduct.md)
+- [ ] I agree to follow our [Code of Conduct](https://github.com/JordanForeman/.github/blob/c5cc584533b5dc0eac961e1c74a021fa443a39a2/code-of-conduct.md)
+- [ ] I have read and followed the [Contribution Guidelines](https://github.com/JordanForeman/cf-find/blob/master/.github/CONTRIBUTING.md)
